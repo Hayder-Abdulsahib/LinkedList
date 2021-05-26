@@ -1,4 +1,6 @@
 const prompt = require('prompt-sync')({ sigint: true });
+
+
 class Node {
     constructor(year, highlight, nextNode = null) {
         this.year = year;
